@@ -87,7 +87,7 @@ sudo reboot
 ```
 
 ### Step 7: # Steps you can take when expanding the iSCSI LUN...
-Completely optional; only to be used when the LUN has already been expanded on the iSCSI target server.
+Completely optional; only to be used when the LUN has already been expanded on the iSCSI target server (QNAP NAS).
 ```
 sudo umount /mnt/iscsi_disk
 sudo e2fsck -f /dev/sdX

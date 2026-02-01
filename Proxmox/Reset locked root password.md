@@ -1,6 +1,6 @@
 # Reset locked root password
 
-If you find yourself unable to SSH into a PVE node from the root user, you can reet the password.
+If you find yourself unable to SSH into a PVE node from the root user, you can reset the password.  This issue can also be bypassed by having an SSH Key.
 
 You'll need to power off the node, either via the physical power button, AHCI power off on the IPMI/BMC, or if you have a second administrator on your cluster.
 

@@ -6,10 +6,10 @@ You'll need to power off the node, either via the physical power button, AHCI po
 
 Power on the node.  When you get to the systemd-boot screen, press ```e``` on your keybaord.  This will allow you to temporarity edit ```/etc/kernel/cmdline```, and pass custom boot parameters.
 
-![Figure1.1](./Images/IMG_3947.jpeg)
+![Figure1.1](./Images/Figure1.1.jpg)
 
 At the end of the line, add ```init=/bin/bash```, and press enter.
 
-![Figure1.1](./Images/IMG_3948.jpeg)
+![Figure1.1](./Images/Figure1.2.jpg)
 
 Once booted into bash, you can now run ```passwd``` to change your root password.
